@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>hw06</title>
+    <style>
+        header {
+            background-color: rgb(38, 54, 199);
+            color: mintcream;
+            height: 100px;
+            padding: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        body {
+            margin: 0px;
+        }
+        #home {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        .first {
+            background-color:blanchedalmond;
+            width: 350px
+            height: 300px;
+        }
+        #vide {
+            padding-left: 0px;
+        }
+        #menu {
+            float: right;
+            color:mintcream;
+        }
+        a {
+            color: mintcream;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>
+                AMIANA RESORT
+            </center>
+        </h1>
+        <div id="menu">
+            <a href="./room.html">객실</a>|
+            <a href="./facilities.html">시설</a>
+        </div>
+    </header>
+    <div id="home">
+        <form class="first">
+            check-in<br>
+            <input type="date" nmae="check-in" min="2021-05-01" max="2021-12-31"><br>
+            check-out<br>
+            <input type="date" nmae="check-in" min="2021-05-01" max="2021-12-31"><br>
+            adults<br>
+            <select>
+                <option value="1">1 adults</option>
+                <option value="2" selected>2 adults</option>
+                <option value="3">3 dults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 dults</option>
+                <option value="6">6 adults</option>
+                <option value="3">7 dults</option>
+                <option value="4">8 adults</option>
+                <option value="5">9 dults</option>
+                <option value="6">10 adults</option>
+            </select><br>
+            children<br>
+            <select>
+                <option value="0" selected>No children</option>
+                <option value="1">1 child</option>
+                <option value="2">2 chidren</option>
+                <option value="3">3 chidren</option>
+                <option value="4">4 chidren</option>
+                <option value="5">5 chidren</option>
+                <option value="6">6 chidren</option>
+                <option value="3">7 chidren</option>
+                <option value="4">8 chidren</option>
+                <option value="5">9 chidren</option>
+                <option value="6">10 chidren/option>
+            </select><br>
+            room<br>
+            <select>
+                <option value="1" selected>1 room</option>
+                <option value="2">2 room</option>
+                <option value="3">3 room</option>
+                <option value="4">4 room</option>
+                <option value="5">5 room</option>
+            </select><br><br>
+            <input type="submit" value="search">
+        </form>
+    <div id="vide">
+    <iframe width="900px" height="120%" src="https://www.youtube.com/embed/Sz5P7fM70H0" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+     gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+</body>
+
+</html>
